@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UITextField!
     
+    @IBOutlet weak var cameraView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,6 +21,9 @@ class ViewController: UIViewController {
 
     @IBAction func UIbutton(_ sender: Any) {
         label.text = "correct!"
+    }
+    
+    @IBAction func camera(_ sender: UIButton) {
     }
     
 }
